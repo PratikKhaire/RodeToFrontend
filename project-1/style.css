@@ -1,0 +1,128 @@
+*{
+    margion :0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+
+
+
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+    /* background-color: rgb(176, 255, 229); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px ;
+}
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+#nav h3 {
+    font-size: 15px;
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 30px;
+    font-weight: 500;
+}
+#nav i {
+    font-size: 15px;
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 30px;
+    font-weight: 500;
+}
+
+#nav h1 {
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+
+        background: linear-gradient(90deg, #ff512f, #dd2476);
+      -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+    }
+
+
+#nav button {
+    padding: 7px 13px;
+    border-radius: 50px;
+    border:  1.5px solid black;
+    font-size: 16px;
+    font-weight: 600;
+    /* background-color: white; */
+}
+#btn-2 {
+    color: white;
+    /* background-color: red(163, 44, 0); */
+    background-color: orangered;
+    border: none;
+    text-decoration: black;
+}
+
+#main>h1{
+    font-size: 130px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+    /* background-color: gredient; */
+    /* background: linear-gradient(45deg, red , rgb(231, 194, 194)); */
+}
+
+img{
+    height: 400px;
+    width: 350px;
+
+    object-fit: cover;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    object-position: top;
+    border-radius: 20px;
+    
+    
+}
+
+
+
+#img-1{
+    transform: translate(-50%,-50%) rotate(-20deg);  
+}
+#img-2{
+    transform: translate(-50%,-50%) rotate(-30deg);  
+}
+#img-3{
+    transform: translate(-50%,-50%) rotate(-40deg);  
+}
+
+
+#btm-left{
+    position: absolute;
+    bottom: 1%;
+    left: 5%;
+    font-size: 17px;
+}

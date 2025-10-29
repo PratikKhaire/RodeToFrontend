@@ -1,16 +1,88 @@
-# React + Vite
+# Project-06: React + Tailwind CSS Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive landing page built with React and Tailwind CSS using Vite as the build tool.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Modern React Architecture**: Built with functional components and hooks
+- **Tailwind CSS**: Utility-first CSS framework for rapid UI development
+- **Responsive Design**: Mobile-first approach ensuring great UX across all devices
+- **Vite Build Tool**: Fast development server and optimized production builds
+- **Component-Based Structure**: Modular and maintainable code organization
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend**: React 18
+- **Styling**: Tailwind CSS
+- **Build Tool**: Vite
+- **Language**: JavaScript (ES6+)
 
-## Expanding the ESLint configuration
+## 🚦 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn package manager
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/PratikKhaire/project-06-react-landing.git
+   cd project-06-react-landing
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser**
+   Navigate to `http://localhost:5173` to see the application
+
+### Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build locally
+- `npm run lint` - Run ESLint for code quality
+
+## 🎨 Components Overview
+
+### Section 1 Components
+- **Navbar**: Navigation header with responsive design
+- **HeroText**: Main heading and call-to-action
+- **LeftContent**: Left side content area
+- **RightContent**: Right side content with card
+- **RightCard**: Featured card component
+- **Arrow**: Decorative arrow elements
+
+### Section 2 Components
+- **Section2**: Additional content section
+
+## 📱 Responsive Design
+
+The application is built with a mobile-first approach and includes responsive navigation, flexible layouts, and optimized content.
+
+## 🚀 Deployment
+
+### Build for Production
+```bash
+npm run build
+```
+
+Deploy the `dist/` folder to any static hosting service like Vercel, Netlify, or GitHub Pages.
+
+## 🔗 Links
+
+- **Main Repository**: [RodeToFrontend](https://github.com/PratikKhaire/RodeToFrontend)
+- **GitHub**: [@PratikKhaire](https://github.com/PratikKhaire)
+
+---
+
+**Part of the Frontend Development Journey** 🚀

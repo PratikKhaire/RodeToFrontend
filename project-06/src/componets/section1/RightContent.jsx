@@ -3,9 +3,9 @@ import RightCard from './RightCard'
 
 const RightContent = (props) => {
   return (
-    <div className=' h-full  flex flex-nowrap  rounded-4xl overflow-x-auto gap-5 w-2/3 p-7'>
-        {props.users.map(function(){
-        return  <RightCard/> 
+    <div id='right' className=' h-full  flex flex-nowrap  rounded-4xl overflow-x-auto gap-5 w-2/3 p-7'>
+        {props.users.map(function(ele,idx){
+        return  <RightCard key={idx} id={idx} img={ele.img} tag={ele.tag} intro={ele.ele} /> 
 })}
     </div>
   )

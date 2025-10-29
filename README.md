@@ -55,6 +55,53 @@ npm install
 npm run dev
 ```
 
+## 📝 Development Workflow
+
+### Making Project-Specific Commits
+
+This monorepo is designed to track changes per project. When working on a specific project:
+
+#### Method 1: Manual Project-Specific Commits
+```bash
+# Make changes to your project (e.g., project-06)
+# Add only the specific project files
+git add project-06/
+
+# Commit with project-specific message
+git commit -m "project-06: Your commit message here"
+
+# Push to GitHub
+git push origin main
+```
+
+#### Method 2: Use the Helper Script (Recommended)
+```bash
+# Use the commit helper script
+./commit-project.sh project-06 "Add new navbar feature"
+
+# This will:
+# - Show you what files are changed
+# - Add only project-06 files to staging
+# - Create a properly formatted commit message
+# - Ask for confirmation before committing
+```
+
+### Helper Script Usage
+```bash
+./commit-project.sh <project-name> "<commit-message>"
+
+# Examples:
+./commit-project.sh project-06 "Add responsive design"
+./commit-project.sh project-1 "Fix CSS styling issues"
+./commit-project.sh project-5 "Update JavaScript functionality"
+```
+
+### Benefits of This Approach
+- ✅ Clean, project-focused commit history
+- ✅ Easy to track changes per project
+- ✅ Perfect for showcasing individual project evolution
+- ✅ Maintains monorepo structure with organized commits
+
 ## 📈 Progress Timeline
 
 - **July 2024**: Started with HTML/CSS basics (projects 1-3)
